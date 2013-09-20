@@ -17,8 +17,8 @@
   },
   "dependencies": {
     "chesstournament": "0.0.x",
-    "chesstournament-SWT-support": "0.0.x",
-    "chesstournament-CTX-support": "0.0.x",
+    "chesstournament-swt-support": "0.0.x",
+    "chesstournament-ctx-support": "0.0.x",
     "nomnom": "1.6.x"
   },
   "scripts": {
