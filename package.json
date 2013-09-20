@@ -1,0 +1,28 @@
+{
+  "name": "swt2ctx",
+  "description": "Convert Swiss-Chess Tournament (SWT) files into Chess Tournament Exchange (CTX) format",
+  "author": "Falco Nogatz <fnogatz@gmail.com>",
+  "version": "0.1.0",
+  "keywords": ["chess", "tournament", "swiss-chess", "CTX", "SWT"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fnogatz/swt2ctx.git"
+  },
+  "bugs": {
+    "url": "http://github.com/fnogatz/swt2ctx/issues"
+  },
+  "main": "./lib/tournament.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "chesstournament": "0.0.x",
+    "chesstournament-SWT-support": "0.0.x",
+    "chesstournament-CTX-support": "0.0.x",
+    "nomnom": "1.6.x"
+  },
+  "scripts": {
+    "build-vereine": "node ./vereine/build-json.js > ./vereine/vereine.json"
+  },
+  "bin": "./bin/swt2ctx.js"
+}
