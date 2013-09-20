@@ -2,7 +2,7 @@
   "name": "swt2ctx",
   "description": "Convert Swiss-Chess Tournament (SWT) files into Chess Tournament Exchange (CTX) format",
   "author": "Falco Nogatz <fnogatz@gmail.com>",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": ["chess", "tournament", "swiss-chess", "CTX", "SWT"],
   "repository": {
     "type": "git",
