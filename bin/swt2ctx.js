@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var convert = require('../lib/index');
 
 var opts = require('nomnom')
