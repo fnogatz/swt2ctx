@@ -1,6 +1,7 @@
 # swt2ctx
 
-Convert a [Swiss-Chess](http://swiss-chess.de) Tournament (SWT) file into a valid [Chess Tournament Exchange Format (CTX)](https://github.com/fnogatz/CTX) file.
+Convert a [Swiss-Chess](http://swiss-chess.de) Tournament (SWT) file into a 
+valid [Chess Tournament Exchange Format (CTX)](https://github.com/fnogatz/CTX).
 
 ## Installation
 

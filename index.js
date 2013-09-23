@@ -6,7 +6,7 @@ Tournament.to.use(require('chesstournament-ctx-support'));
 
 
 function swt2ctx(from, options, callback) {
-  Tournament.from.SWT(from, function(err, tournament) {
+  Tournament.from.SWT(Tournament, from, function(err, tournament) {
     if (err)
       throw err;
 
@@ -14,7 +14,7 @@ function swt2ctx(from, options, callback) {
       if (err)
         throw err;
 
-      console.log(ctx);
+      callback(null, ctx);
     });
   });
 }
