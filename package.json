@@ -19,7 +19,7 @@
     "chesstournament": "0.0.x",
     "chesstournament-swt-support": "0.0.x",
     "chesstournament-ctx-support": "0.0.x",
-    "nomnom": "1.6.x"
+    "nomnom": "~1.8.1"
   },
   "scripts": {
     "browserify": "node node_modules/browserify/bin/cmd.js browser/swt2ctx-example.js > browser/browserify.js",
