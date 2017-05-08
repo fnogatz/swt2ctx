@@ -1,5 +1,7 @@
 # swt2ctx
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/fnogatz/swt2ctx.svg)](https://greenkeeper.io/)
+
 Convert a [Swiss-Chess](http://swiss-chess.de) Tournament (SWT) file into a 
 valid [Chess Tournament Exchange Format (CTX)](https://github.com/fnogatz/CTX).
 
